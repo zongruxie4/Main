@@ -1,20 +1,20 @@
 {
-    "version": "1.83.0",
+    "version": "1.84.0",
     "description": "A collection of JavaScript tools written in Rust.",
     "homepage": "https://github.com/oxc-project/oxc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.83.0/oxlint-x86_64-pc-windows-msvc.zip",
-            "hash": "42deff7e157277f812365886eba1a7f37e19998341f7713de9a0451e9534e5f5"
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.84.0/oxlint-x86_64-pc-windows-msvc.zip",
+            "hash": "f3672f9ac9b33e1b7f66588f4401e463886f1667aa0a7a6686967754638064da"
         },
         "32bit": {
-            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.83.0/oxlint-i686-pc-windows-msvc.zip",
-            "hash": "18af2e40211b5142829ee1c3d607648f6dd23d0e0fdcd59a8ee55896e260edc3"
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.84.0/oxlint-i686-pc-windows-msvc.zip",
+            "hash": "1ebfca4f51acec3b37575b08f87e85e741f2191ab82474a43700f74c6968db21"
         },
         "arm64": {
-            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.83.0/oxlint-aarch64-pc-windows-msvc.zip",
-            "hash": "627dcb57b930a47f404023429f0028933a027a29d7911836e9cf44a4dcff50f3"
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.84.0/oxlint-aarch64-pc-windows-msvc.zip",
+            "hash": "0bfc2c65627930f1744c21843b246b3b083c6e5db8541d3d9073a445ecf4e98e"
         }
     },
     "pre_install": "Get-Item \"$dir\\oxlint-*.exe\" | Rename-Item -NewName \"$dir\\oxlint.exe\"",
